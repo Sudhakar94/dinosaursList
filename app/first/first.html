@@ -1,0 +1,42 @@
+<!-- Section for Desktop and Tab -->
+<section class="large-12 medium-12 small-12 columns hide-for-small-only ">
+  <!-- Section for list of Dinosaurs names -->
+  <div class="large-6 medium-6 small-6 columns">
+    <ul *ngFor="let head of dynName1">  
+      <li (click)="getValues(listName1)"  class="itemList large-6" #listName1>{{head}}</li>     
+    </ul>
+  </div>
+  <!-- Section for details of Dinosaurs -->
+  <div class="large-6 medium-6 small-6 columns details"  >
+    <ul class="list" *ngFor="let dynDet of dynName2">
+      <li>Appeared:{{dynDet.appeared}}</li>
+      <li>Height:{{dynDet.height}}</li>
+      <li>Length:{{dynDet.length}}</li>
+      <li>Order:{{dynDet.order}}</li>
+      <li>Vanished:{{dynDet.vanished}}</li>
+      <li>Weight:{{dynDet.weight}}</li>
+    </ul>
+  </div> 
+</section>
+<!-- Section for mobile -->
+
+<section class="large-12 columns show-for-small-only hide-for-medium-only">
+  <!-- Section for list of Dinosaurs names -->
+  <div id="goingHide" class="large-12 columns show-for-small-only">
+    <ul *ngFor="let head of dynName1" >  
+      <li class="itemList" #listName2  (click)="getValuesSmal(listName2)">{{head}}</li>    
+    </ul>
+  </div>
+  <!-- Section for details of Dinosaurs -->
+  <div id="toggDiv" class="large-12 columns show-for-small-only disNon postn">
+    <ul class="list" *ngFor="let dynDet of dynName2">
+      <li>Appeared:{{dynDet.appeared}}</li>
+      <li>Height:{{dynDet.height}}</li>
+      <li>Length:{{dynDet.length}}</li>
+      <li>Order:{{dynDet.order}}</li>
+      <li>Vanished:{{dynDet.vanished}}</li>
+      <li>Weight:{{dynDet.weight}}</li>
+    </ul>
+    <button class="success button" (click)="backMov()">BACK</button>
+  </div> 
+</section>

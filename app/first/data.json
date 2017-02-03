@@ -1,0 +1,57 @@
+[
+	{
+		"Bruhathkayosaurus": {
+			"appeared": "-70000000",
+			"height": "25",
+			"length": "44",
+			"order": "saurischia",
+			"vanished": "-70000000",
+			"weight": "135000"
+		},
+
+		"Lambeosaurus": {
+			"appeared": "-7600000",
+			"height": "2.",
+			"length": "12.",
+			"order": "ornithischia",
+			"vanished": "-7500000",
+			"weight": "500"
+		},
+
+		"Linhenykus": {
+			"appeared": "-85000000",
+			"height": "0.6",
+			"length": "1",
+			"order": "theropoda",
+			"vanished": "-75000000",
+			"weight": "3"
+		},
+
+		"Pterodactyl": {
+			"appeared": "-150000000",
+			"height": "0.6",
+			"length": "0.8",
+			"order": "pterosauria",
+			"vanished": "-148500000",
+			"weight": "2"
+		},
+
+		"Stegosaurus": {
+			"appeared": "-155000000",
+			"height": "4",
+			"length": "9",
+			"order": "ornithischia",
+			"vanished": "-150000000",
+			"weight": "2500"
+		},
+
+		"Triceratops": {
+			"appeared": "-68000000",
+			"height": "3",
+			"length": "8",
+			"order": "ornithischia",
+			"vanished": "-66000000",
+			"weight": "11000"
+		}
+	}
+]
